@@ -4,7 +4,7 @@ if (js === "amazing") alert("Javascript is Fun!!!");
 const age = 19;
 
 if (age >= 18) {
-  console.log("Sarah can start drving license 🚗");
+  console.log("Sarah can start driving license 🚗");
 } else {
   const yearsLeft = 18 - age;
   console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
@@ -102,7 +102,7 @@ if (_age == 18) console.log('You just became an adult :D {loose}');
 
 console.log(18 === 18);
 console.log(18 === 19);
-// strict type operator, loosely equaityoperator doesn't check type of 
+// strict type operator, loosely equaity operator doesn't check typeof 
 console.log('18' == 18); // true
 console.log('18' === 18); // false
 
@@ -117,7 +117,7 @@ if (favourite === 23) {
 } else if (favourite === 9) {
   console.log('9 is also a cool number');
 } else {
-  console.log('Number is not 23 ot 7 or 9');
+  console.log('Number is not 23 not 7 or 9');
 }
 
 if (favourite !== 23) console.log('Why not 23?');
@@ -173,5 +173,5 @@ switch (day) {
 // Statements and Expressions
 // expression produce a value
 
-console.log(`I like to drin ${age >= 18 ? 'wind 🍷' : 'water 💧'}`);
+console.log(`I like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
 
